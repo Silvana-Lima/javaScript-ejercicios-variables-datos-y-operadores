@@ -42,12 +42,12 @@
 // Ejercicio 4:
 // Pedir al usuario dos numeros y mostrar por el documento los resultados de cada calculo aritmetico. Ejemplo: El resultado de la suma es: ${resultado}
 
-const numeroUno = prompt("Ingrese un numero");
-const numeroDos = prompt("Ingrese otro numero");
+// const numeroUno = prompt("Ingrese un numero");
+// const numeroDos = prompt("Ingrese otro numero");
 
-const suma = `La suma de los números ingresados es ${Number(numeroUno) + Number(numeroDos)}`;
+// const suma = `La suma de los números ingresados es ${Number(numeroUno) + Number(numeroDos)}`;
 
-document.write(suma);
+// document.write(suma);
 
 // const resta = `La  de resta los números ingresados es ${Number(numeroUno) - Number(numeroDos)}`;
 
@@ -85,3 +85,47 @@ document.write(suma);
 
 // console.log(multiplicacion);
 
+
+//✅ Nos pidieron un programa que permita ingresar el nombre de una playlist y el título de tres canciones, mediante los siguiente mensajes:
+
+// ¿Cuál es el nombre de la playlist?
+// ¿Cuál es la primera canción?
+// ¿Cuál es la segunda canción?
+// ¿Cuál es la tercera canción?
+// Con está información el programa deberá mostrar el siguiente mensaje: Se ha creado la playlist {playlist} con las canciones {cancion1}, {cancion2}, {cancion3}
+
+// const playlist = prompt('¿Cuál es el nombre de la playlist?');
+// const cancion1 = prompt('¿Cuál es la primera canción?');
+// const cancion2 = prompt('¿Cuál es la segunda canción?');
+// const cancion3 = prompt('¿Cuál es la tercera canción?');
+
+// alert(`Se ha creado la playlist ${playlist} con las canciones ${cancion1}, ${cancion2}, ${cancion3}`);
+
+// ✅Necesitamos un programa que pida ingresar los siguientes datos de una dirección: calle, número, departamento, código postal, ciudad y país, mediante los siguiente mensajes respectivamente:
+
+// ¿Cuál es la calle?.
+// ¿Cuál es el número?.
+// ¿Cuál es el departamento?
+// ¿Cuál es el código postal?
+// ¿Cúal es la ciudad?
+// ¿Cúal es el país?
+// Con está información el programa deberá mostrar el siguiente mensaje: La dirección que ha ingresado es: {calle} {numero} {departamento}, {codigoPostal}, {ciudad}, {pais}
+
+// const calle = prompt('¿Cuál es la calle?.');
+// const numero = prompt('¿Cuál es el número?.');
+// const departamento = prompt('¿Cuál es el departamento?');
+// const codigoPostal = prompt('¿Cuál es el código postal?');
+// const ciudad = prompt('¿Cúal es la ciudad?');
+// const pais = prompt('¿Cúal es el país?');
+
+// alert(`Con está información el programa deberá mostrar el siguiente mensaje: La dirección que ha ingresado es: ${calle} ${numero} ${departamento}, ${codigoPostal}, ${ciudad}, ${pais}`);
+
+// Necesitamos un programa que pida una cantidad de minutos con el siguiente mensaje:
+
+//✅ Ingresá una cantidad de minutos.
+// Con esta información, el programa deberá mostrar el resultado de la conversión en segundos mediante el mensaje: El resultado de la conversión de {minutos} minutos a segundos es: {resultado}
+
+// const minutos = prompt('Ingresá una cantidad de minutos.');
+// const resultado = Number(minutos)*60;
+
+// alert(`El resultado de la conversión de ${minutos} minutos a segundos es: ${resultado}`)
